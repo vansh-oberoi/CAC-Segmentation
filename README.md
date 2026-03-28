@@ -89,21 +89,21 @@ These steps helped reduce noise and improve segmentation quality.
 
 ---
 
-# Qualitative Results
+## Qualitative Results
 
-Representative outputs include:
+The following examples demonstrate segmentation performance on CT slices.
 
-- Input CT slices  
-- Ground truth masks  
-- Predicted segmentation  
+Each visualization shows:
+- Left: Input CT slice  
+- Middle: Ground truth mask  
+- Right: Model prediction overlay  
 
-(Add images in `results/images/`)
+### Sample 1
+![Sample 1](results/images/sample1.png)
 
----
+### Sample 2
+![Sample 2](results/images/sample2.png)
 
-# Repository Structure
-
----
 
 # Reproducibility
 
