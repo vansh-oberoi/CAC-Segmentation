@@ -104,6 +104,19 @@ Each visualization shows:
 ### Sample 2
 ![Sample 2](results/images/sample2.png)
 
+## Repository Structure
+
+```
+CAC-Segmentation/
+|
+|-- common_task/        # Preprocessing and data loading
+|-- specific_task/      # Model, training, inference
+|-- results/
+|   |-- images/         # Output visualizations
+|   `-- plots/          # Training curves
+|-- README.md
+`-- requirements.txt
+```
 
 # Reproducibility
 
