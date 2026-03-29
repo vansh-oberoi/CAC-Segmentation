@@ -66,9 +66,7 @@ These augmentations improve generalization while maintaining anatomical consiste
 
 A hybrid loss formulation was used:
 
-\[
-\mathcal{L} = 0.7 \cdot \mathcal{L}_{Dice} + 0.3 \cdot \mathcal{L}_{BCE}
-\]
+L = 0.7 * L_Dice + 0.3 * L_BCE
 
 This balances:
 
