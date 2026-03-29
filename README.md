@@ -107,13 +107,13 @@ Each visualization shows:
 - Right: Model prediction overlay  
 
 ### Sample 1
-![Sample 1](../results/images/Sample1.png)
+![Sample 1](results/images/Sample1.png)
 
 ### Sample 2
-![Sample 2](../results/images/Sample2.png)
+![Sample 2](results/images/Sample2.png)
 
 ### Sample 3
-![Sample 3](../results/images/Sample3.png)
+![Sample 3](results/images/Sample3.png)
 
 ---
 
