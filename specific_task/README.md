@@ -89,8 +89,8 @@ The model significantly surpasses the required Dice threshold (>0.85) while main
 
 Representative segmentation outputs:
 
-![Sample 1](results/images/sample1.png)  
-![Sample 2](results/images/sample2.png)
+![Sample 1](results/images/Sample1.png)  
+![Sample 2](results/images/Sample2.png)
 
 The model demonstrates strong localization and accurate segmentation across different samples, with minimal false positives.
 
