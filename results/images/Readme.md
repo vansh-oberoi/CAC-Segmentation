@@ -12,7 +12,7 @@ This steady decrease demonstrates:
 - Proper **learning rate selection**
 - Effective **hybrid loss (Dice + BCE)**
 
-![Loss Curve](../results/images/Loss_curve.png)
+![Loss Curve](Loss_curve.png)
 
 ---
 
@@ -27,7 +27,7 @@ The validation Dice score shows a **clear learning progression followed by conve
 Final performance:
 - **Validation Dice Score ≈ 0.92**
 
-![Validation Dice Curve](../results/images/Training_curve.png)
+![Validation Dice Curve](Training_curve.png)
 
 ---
 
