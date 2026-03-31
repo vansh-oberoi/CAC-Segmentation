@@ -1,6 +1,6 @@
-## 📊 Training & Validation Performance
+## Training & Validation Performance
 
-### 🔻 Loss Convergence
+### Loss Convergence
 
 The training loss exhibits a **smooth and consistent decline** across epochs, indicating stable optimization and effective learning of volumetric features.
 
@@ -16,7 +16,7 @@ This steady decrease demonstrates:
 
 ---
 
-### 📈 Validation Dice Score
+### Validation Dice Score
 
 The validation Dice score shows a **clear learning progression followed by convergence**, which is characteristic of a well-trained segmentation model.
 
@@ -31,7 +31,7 @@ Final performance:
 
 ---
 
-### 🧠 Key Observations
+###  Key Observations
 
 - ✔️ Smooth and stable convergence  
 - ✔️ No signs of overfitting (Dice does not degrade)  
@@ -41,7 +41,7 @@ Final performance:
 
 ---
 
-### 🚀 Interpretation
+###  Interpretation
 
 These results confirm that the implemented **3D U-Net pipeline**:
 
@@ -55,7 +55,7 @@ The combination of **Dice loss and Binary Cross-Entropy loss** ensures:
 
 ---
 
-### 📌 Conclusion
+### Conclusion
 
 The training dynamics demonstrate:
 
