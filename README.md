@@ -197,7 +197,7 @@ This repository demonstrates not only model performance but also a clear underst
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 To set up the project locally, follow these steps:
 
@@ -211,7 +211,8 @@ pip install -r requirements.txt
 
 This will install all required libraries for preprocessing,training,evaluation and visualisation.
 
+```
 ---
-# Author
+## Author
 
 **Vansh Oberoi**
