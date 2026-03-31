@@ -197,6 +197,21 @@ This repository demonstrates not only model performance but also a clear underst
 
 ---
 
+## ⚙️ Installation
+
+To set up the project locally, follow these steps:
+
+### Clone the repository
+
+```bash
+git clone https://github.com/vansh-oberoi/CAC-Segmentation.git
+cd CAC-Segmentation
+
+pip install -r requirements.txt
+
+This will install all required libraries for preprocessing,training,evaluation and visualisation.
+
+---
 # Author
 
 **Vansh Oberoi**
