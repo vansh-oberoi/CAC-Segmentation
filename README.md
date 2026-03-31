@@ -119,13 +119,17 @@ Each visualization shows:
 
 ## Repository Structure
 
+```
 CAC-Segmentation/
-|
-|-- common_task/ # Preprocessing and data loading
-|-- specific_task/ # Model, training, evaluation
-|-- results/images/# Output visualizations and Plots
-|-- README.md -- requirements.txt
-
+│
+├── common_task/        # Preprocessing and data loading
+├── specific_task/      # Model, training, evaluation
+├── results/
+│   └── images/         # Output visualizations and plots
+│
+├── README.md
+└── requirements.txt
+```
 
 ---
 
