@@ -156,16 +156,18 @@ A key limitation of standard segmentation models is **false positives in anatomi
 
 ### Approach
 
-- Dual-branch architecture:
-  - Segmentation branch (local features)  
-  - Context branch (global anatomical prior)  
+* **Dual-branch architecture:**
 
-- Consistency constraint:
+  * **Segmentation branch** — captures local features
+  * **Context branch** — models global anatomical priors
 
- L = L_seg + λ || P_seg · (1 − P_context) ||
+* **Consistency Constraint:**
 
- 
-This enforces **anatomical consistency** and reduces false positives.
+$$
+L = L_{\text{seg}} + \lambda \left| P_{\text{seg}} \cdot (1 - P_{\text{context}}) \right|
+$$
+
+This loss formulation enforces **anatomical consistency** by penalizing segmentation predictions in regions where contextual confidence is low, thereby reducing false positives and improving structural coherence.
 
 ---
 
